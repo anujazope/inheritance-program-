@@ -1,0 +1,13 @@
+import java.util.*;
+import quadrilateral.java
+
+class Rhombus extends Quadralateal {
+	void printArea() {
+		System.out.println("\n*** Finding the Area of Rhombus ***");
+		System.out.print("Enter diagonal1: ");
+		System.out.print("Enter diagonal2: ");
+		diagonal1 = input.nextInt();
+		diagonal2 = input.nextInt();
+        System.out.println("The area of Rhombus is: " + (diagonal1 + diagonal2) / 2);
+	}
+}

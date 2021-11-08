@@ -1,0 +1,12 @@
+import java.util.*;
+import quadrilateral.java
+
+class Rectangle extends Quadralateal {
+	void printArea() {
+		System.out.println("*** Finding the Area of Rectangle ***");
+		System.out.print("Enter length and breadth: ");
+		length = input.nextInt();
+		breadth = input.nextInt();
+		System.out.println("The area of Rectangle is: " + length * breadth);
+	}
+}

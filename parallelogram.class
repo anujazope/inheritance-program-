@@ -1,0 +1,12 @@
+import java.util.*;
+import quadrilateral.java
+
+class parallelogram extends Quadralateal {
+	void printArea() {
+		System.out.println("\n*** Finding the Area of parallelogram ***");
+		System.out.print("Enter base and Height: ");
+		base = input.nextInt();
+		Height = input.nextInt();
+		System.out.println("The area of parallelogram is: " + base * Height);
+	}
+}

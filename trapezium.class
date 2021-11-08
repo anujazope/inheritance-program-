@@ -1,0 +1,15 @@
+import java.util.*;
+import quadrilateral.java
+
+class trapezium extends Quadralateal {
+	void printArea() {
+		System.out.println("\n*** Finding the Area of trapezium ***");
+		System.out.print("Enter base1: ");
+		System.out.print("Enter base2: ");
+		System.out.print("Enter Height: "); 
+		base1 = input.nextInt();
+		base2 = input.nextInt();
+		Height = input.nextInt();
+		System.out.println("The area of trapezium is: " + (base1 + base2 * Height) / 2);
+	}
+}

@@ -1,0 +1,11 @@
+import java.util.*;
+import quadrilateral.java
+
+class square extends Quadralateal {
+	void printArea() {
+		System.out.println("\n*** Finding the Area of square ***");
+		System.out.print("Enter side: ");
+		side = input.nextInt();
+		System.out.println("The area of square is: " + side * side);
+	}
+}
